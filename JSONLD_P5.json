@@ -1,0 +1,32 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "68 avenue Alsace-Lorraine",
+      "addressLocality": "Bordeaux",
+      "postalCode": "33200"
+    },
+    "telephone": "05 56 67 78 89",
+    "contactOption": {
+      "@type": "ContactOption",
+      "contactType": "customer service",
+      "availableLanguage": ["French"]
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+33 5 56 67 78 89",
+      "contactType": "customer service",
+      "areaServed": "FR",
+      "availableLanguage": ["French"],
+      "hoursAvailable": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "10:00",
+          "closes": "19:00"
+        }
+      ]
+    }
+  }
+  
