@@ -6,6 +6,9 @@ body {
     font-family: "Inter";
     font-style: normal;
 }
+a:hover {
+    color: black;
+}
 header {
     background-color: white;
     position: sticky;

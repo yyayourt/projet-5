@@ -1,7 +1,39 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <script src="./JSONLD_P5.json" type="application/ld+json"></script>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "68 avenue Alsace-Lorraine",
+                    "addressLocality": "Bordeaux",
+                    "postalCode": "33200"
+                },
+                "telephone": "05 56 67 78 89",
+                "contactOption": {
+                    "@type": "ContactOption",
+                    "contactType": "customer service",
+                    "availableLanguage": ["French"]
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+33 5 56 67 78 89",
+                    "contactType": "customer service",
+                    "areaServed": "FR",
+                    "availableLanguage": ["French"],
+                    "hoursAvailable": [
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                            "opens": "10:00",
+                            "closes": "19:00"
+                        }
+                    ]
+                }
+            }
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Nina Carducci</title>
         <meta
@@ -82,7 +114,7 @@
                     <img src="./assets/images/nina.png" alt="Une femme portant une salopette devant une foret" />
                 </div>
                 <div id="about-me">
-                    <h2 class="about-me__title">A propos de moi.</h2>
+                    <h2 class="about-me__title">A propos de moi</h2>
                     <h3 class="about-me__introduction">
                         Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels,
                         voilà ce qui me fait vibrer.
