@@ -123,6 +123,11 @@ nav a {
 .nav-pills .nav-link {
     color: #000;
 }
+
+.nav-item {
+    cursor: pointer;
+}
+
 .item-column {
     position: relative;
     margin-bottom: 0 !important;
@@ -158,6 +163,11 @@ aside {
     margin: auto;
     padding-block: 3em;
 }
+
+.quote {
+    padding-inline: 2em;
+}
+
 .quote__text {
     font-family: Spectral;
     font-style: italic;
